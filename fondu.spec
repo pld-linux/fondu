@@ -1,4 +1,4 @@
-Summary:	Converts between mac and unix fonts
+Summary:	Converts between Mac and Unix fonts
 Summary(pl):	Ró¿ne narzêdzia do operowania na fontach Type 1 i 2
 Name:		fondu
 Version:	060102
@@ -12,8 +12,12 @@ BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-fondu allows you to convert a mac font into a unix one. ufond converts
-a unix font into a mac one.
+fondu allows you to convert a Mac font into a Unix one. ufond converts
+a Unix font into a Mac one.
+
+%description -l pl
+fondu pozwala konwertowaæ fonty macowe na uniksowe. ufond konwertuje
+fonty uniksowe na macowe.
 
 %prep
 %setup -q
@@ -25,7 +29,6 @@ a unix font into a mac one.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_mandir}/man1
 
 %{__make} install \
