@@ -1,5 +1,5 @@
 Summary:	Converts between Mac and Unix fonts
-Summary(pl.UTF-8):   Różne narzędzia do operowania na fontach Type 1 i 2
+Summary(pl.UTF-8):	Różne narzędzia do operowania na fontach Type 1 i 2
 Name:		fondu
 Version:	060102
 Release:	1
