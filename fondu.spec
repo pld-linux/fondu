@@ -1,5 +1,5 @@
 Summary:	Converts between Mac and Unix fonts
-Summary(pl):	Ró¿ne narzêdzia do operowania na fontach Type 1 i 2
+Summary(pl.UTF-8):   RÃ³Å¼ne narzÄ™dzia do operowania na fontach Type 1 i 2
 Name:		fondu
 Version:	060102
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 fondu allows you to convert a Mac font into a Unix one. ufond converts
 a Unix font into a Mac one.
 
-%description -l pl
-fondu pozwala konwertowaæ fonty macowe na uniksowe. ufond konwertuje
+%description -l pl.UTF-8
+fondu pozwala konwertowaÄ‡ fonty macowe na uniksowe. ufond konwertuje
 fonty uniksowe na macowe.
 
 %prep
